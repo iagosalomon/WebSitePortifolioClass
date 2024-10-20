@@ -1,0 +1,135 @@
+:root {
+    --myGreen:  rgb(72, 87, 2);
+    --softGrey:  rgb(244, 255, 248);
+  }
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background-color: var(--softGrey);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 12000px;
+    margin-left: 16px;
+    margin-right: 16px;
+    min-height: 83vh;
+ }
+
+header {
+    background-color: var(--myGreen);
+    padding: 2px;
+    color: white;
+    text-align: center;
+    top: 0%;
+ 
+ 
+}
+ nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    justify-content: center;
+ }
+ 
+ nav a {
+    color: white;
+    text-decoration: solid;
+    padding: 1em;
+    font-size: 1EM;
+    transition: 0.2s;
+    
+ }
+ 
+ nav a:hover {
+    color: var(--myPurple);
+    text-decoration: solid;
+    size-adjust: 110%; 
+    opacity: 1;
+    font-size: 1.2EM;
+}
+
+
+.container h1 {
+    text-align: left;
+}
+
+.container {
+    text-align: left;
+}
+
+text {
+    font-family: "roboto", 'Times New Roman','Times New Roman', Times, serif, cursive;
+    font-style: normal;
+ }
+
+
+ footer {
+    bottom: 0;
+    color: #707070;
+    height: 3em;
+    left: 0;
+    position: relative;
+    background-color: var(--myGreen);
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+ .workExperience>ul>li ul {
+    padding-left: 0.5cm;
+    list-style-type: disc;
+  }
+  .workExperience>ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .workExperience>ul>li {
+    position: relative;
+    margin: 0;
+    padding-bottom: 0.5cm;
+    padding-left: 0.5cm;
+  }
+  .workExperience>ul>li:before {
+    background-color: #b8abab;
+    width: 0.05cm;
+    content: '';
+    position: absolute;
+    top: 0.1cm;
+    bottom: -0.2cm; /* change this after border removal */
+    left: 0.05cm;
+  }
+  .workExperience>ul>li::after {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -0.09cm;
+    top: 0;
+    width: 0.35cm;
+    height: 0.35cm;
+  }
+  .jobPosition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bolded {
+    font-weight: bold;
+  }
+  .white {
+    color: white;
+  }
+
+  .projectDescription  {
+    padding: 7px;
+  }
+
+  .container ul li {
+    padding-top: 10px;
+  }
+  
+  

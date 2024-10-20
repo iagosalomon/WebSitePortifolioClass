@@ -51,24 +51,17 @@ nav a:hover {
     font-size: 1.2EM;
 }
 
-.image-container {
-    text-align: center;
+
+.container h1 {
+    text-align: left;
 }
 
-.image-container img {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: var(--myGreen);
-    border-width: 8px;
-
+.container {
+    text-align: left;
 }
 
-div h1 {
-    align-items: center;
-    text-align: center;
+.container p {
+    margin-left: 16px;
 }
 
 text {
@@ -78,13 +71,11 @@ text {
 
 
 footer {
-    bottom: 0;
-    color: #707070;
-    height: 3em;
+    position: fixed;
     left: 0;
-    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: var(--myGreen);
     color: white;
     text-align: center;
-    padding-top: 1px;
-  }
+}
