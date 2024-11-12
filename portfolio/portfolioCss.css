@@ -1,0 +1,108 @@
+:root {
+    --myGreen: rgb(72, 87, 2);
+    --softGrey: rgb(244, 255, 248);
+}
+
+body {
+    margin: 0px;
+    background-color: var(--softGrey);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 12000px;
+    margin-left: 16px;
+    margin-right: 16px;
+    min-height: 83vh;
+}
+
+header {
+    background-color: var(--myGreen);
+    padding: 2px;
+    color: white;
+    text-align: center;
+    top: 0%;
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: solid;
+    padding: 1em;
+    font-size: 1EM;
+    transition: 0.2s;
+
+}
+
+nav a:hover {
+    color: var(--myPurple);
+    text-decoration: solid;
+    opacity: 1;
+    font-size: 1.2EM;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    object-fit: cover;
+    width: 231px;
+    height: 300px;
+    border-style: solid;
+    border-color: var(--myGreen);
+    border-width: 8px;
+
+}
+
+div h1 {
+    align-items: center;
+    text-align: center;
+}
+
+text {
+    font-family: "roboto", 'Times New Roman', 'Times New Roman', Times, serif, cursive;
+    font-style: normal;
+}
+
+
+footer {
+    bottom: 0;
+    color: #707070;
+    height: 3em;
+    left: 0;
+    position: relative;
+    background-color: var(--myGreen);
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+  }
+
+  .flexBox ul li {
+    align-items: center;
+    text-align: center;
+  }
+
+  .container .flexBox {
+    align-items: center;
+    text-align: center;
+  }
+
+  .flexBox ul{
+    justify-content: center; 
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 50vh;
+    gap: 40px;
+  }
