@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iago Salomon</title>
     <link rel="stylesheet" href="./aboutCss.css">
+    <script src="./aboutJs.js"></script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -27,7 +28,13 @@
         </nav>
     </header>
     <div class="container">
-        <h1>Hi! I am Iago and welcome to my hub!</h1>
+        <h1 id="greeatings">Hi! I am Iago and welcome to my hub!</h1>
+        <div id="buttonContainer">
+            <button id="btn" class="buttonNormal">Hello there.</button>
+        </div>
+        <div id="ExerciseLoops">
+            <ol id="list"></ol>
+        </div>
         <h1>About Me </h1>
         <div class="image-container">
             <img src="../resources/F27BF0B4-221A-45D4-AE14-E6AB003D8DC6.JPG" alt="Photo of iago">
@@ -55,7 +62,7 @@
 
 
     <footer>
-        <p>&copy; 2024 Sample Text. All Rights Reserved.</p>
+        <p id="currentYear"></p>
     </footer>
 </body>
 

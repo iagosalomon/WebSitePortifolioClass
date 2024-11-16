@@ -87,3 +87,47 @@ footer {
     text-align: center;
     padding-top: 1px;
   }
+
+  #greeting {
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.morning {
+    color: #ff9800;
+}
+
+.afternoon {
+    color: var(--myGreen)
+}
+
+.evening {
+    color: #000000;
+}
+
+#buttonContainer {
+    text-align: center;
+}
+
+.buttonHover {
+    padding: 10px 20px;
+    color: black;
+    background-color: var(--myGreen); ;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.buttonNormal {
+    padding: 10px 20px;
+    color: black; 
+    background-color: transparent;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
